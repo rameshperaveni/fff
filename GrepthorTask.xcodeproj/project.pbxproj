@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		047D328720D4FE3B000D25EC /* t1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D328620D4FE3B000D25EC /* t1.swift */; };
 		04FF11DB20C9470900D84BB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FF11DA20C9470900D84BB9 /* AppDelegate.swift */; };
 		04FF11DD20C9470900D84BB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FF11DC20C9470900D84BB9 /* ViewController.swift */; };
 		04FF11E020C9470900D84BB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FF11DE20C9470900D84BB9 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		04FF11E520C9470900D84BB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FF11E320C9470900D84BB9 /* LaunchScreen.storyboard */; };
 		04FF11F020C9470900D84BB9 /* GrepthorTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FF11EF20C9470900D84BB9 /* GrepthorTaskTests.swift */; };
 		04FF11FB20C9470900D84BB9 /* GrepthorTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FF11FA20C9470900D84BB9 /* GrepthorTaskUITests.swift */; };
+		04FF120A20C94D9E00D84BB9 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FF120820C94D9E00D84BB9 /* TableViewCell.swift */; };
+		04FF120B20C94D9E00D84BB9 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04FF120920C94D9E00D84BB9 /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		047D328620D4FE3B000D25EC /* t1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = t1.swift; sourceTree = "<group>"; };
 		04FF11D720C9470900D84BB9 /* GrepthorTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrepthorTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FF11DA20C9470900D84BB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04FF11DC20C9470900D84BB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 		04FF11F620C9470900D84BB9 /* GrepthorTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrepthorTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FF11FA20C9470900D84BB9 /* GrepthorTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrepthorTaskUITests.swift; sourceTree = "<group>"; };
 		04FF11FC20C9470900D84BB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FF120820C94D9E00D84BB9 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		04FF120920C94D9E00D84BB9 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,7 @@
 				04FF11D920C9470900D84BB9 /* GrepthorTask */,
 				04FF11EE20C9470900D84BB9 /* GrepthorTaskTests */,
 				04FF11F920C9470900D84BB9 /* GrepthorTaskUITests */,
+				04FF11FC20C9470900D84BB9 /* Info.plist */,
 				04FF11D820C9470900D84BB9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,10 +106,13 @@
 			children = (
 				04FF11DA20C9470900D84BB9 /* AppDelegate.swift */,
 				04FF11DC20C9470900D84BB9 /* ViewController.swift */,
+				047D328620D4FE3B000D25EC /* t1.swift */,
 				04FF11DE20C9470900D84BB9 /* Main.storyboard */,
 				04FF11E120C9470900D84BB9 /* Assets.xcassets */,
 				04FF11E320C9470900D84BB9 /* LaunchScreen.storyboard */,
 				04FF11E620C9470900D84BB9 /* Info.plist */,
+				04FF120820C94D9E00D84BB9 /* TableViewCell.swift */,
+				04FF120920C94D9E00D84BB9 /* TableViewCell.xib */,
 			);
 			path = GrepthorTask;
 			sourceTree = "<group>";
@@ -120,7 +130,6 @@
 			isa = PBXGroup;
 			children = (
 				04FF11FA20C9470900D84BB9 /* GrepthorTaskUITests.swift */,
-				04FF11FC20C9470900D84BB9 /* Info.plist */,
 			);
 			path = GrepthorTaskUITests;
 			sourceTree = "<group>";
@@ -233,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04FF11E520C9470900D84BB9 /* LaunchScreen.storyboard in Resources */,
+				04FF120B20C94D9E00D84BB9 /* TableViewCell.xib in Resources */,
 				04FF11E220C9470900D84BB9 /* Assets.xcassets in Resources */,
 				04FF11E020C9470900D84BB9 /* Main.storyboard in Resources */,
 			);
@@ -259,6 +269,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047D328720D4FE3B000D25EC /* t1.swift in Sources */,
+				04FF120A20C94D9E00D84BB9 /* TableViewCell.swift in Sources */,
 				04FF11DD20C9470900D84BB9 /* ViewController.swift in Sources */,
 				04FF11DB20C9470900D84BB9 /* AppDelegate.swift in Sources */,
 			);
