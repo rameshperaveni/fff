@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		047D328720D4FE3B000D25EC /* t1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D328620D4FE3B000D25EC /* t1.swift */; };
+		047D328920D4FEB2000D25EC /* t2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D328820D4FEB2000D25EC /* t2.swift */; };
 		04FF11DB20C9470900D84BB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FF11DA20C9470900D84BB9 /* AppDelegate.swift */; };
 		04FF11DD20C9470900D84BB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FF11DC20C9470900D84BB9 /* ViewController.swift */; };
 		04FF11E020C9470900D84BB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FF11DE20C9470900D84BB9 /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		047D328620D4FE3B000D25EC /* t1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = t1.swift; sourceTree = "<group>"; };
+		047D328820D4FEB2000D25EC /* t2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = t2.swift; sourceTree = "<group>"; };
 		04FF11D720C9470900D84BB9 /* GrepthorTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrepthorTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FF11DA20C9470900D84BB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04FF11DC20C9470900D84BB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				04FF11DA20C9470900D84BB9 /* AppDelegate.swift */,
 				04FF11DC20C9470900D84BB9 /* ViewController.swift */,
 				047D328620D4FE3B000D25EC /* t1.swift */,
+				047D328820D4FEB2000D25EC /* t2.swift */,
 				04FF11DE20C9470900D84BB9 /* Main.storyboard */,
 				04FF11E120C9470900D84BB9 /* Assets.xcassets */,
 				04FF11E320C9470900D84BB9 /* LaunchScreen.storyboard */,
@@ -271,6 +274,7 @@
 			files = (
 				047D328720D4FE3B000D25EC /* t1.swift in Sources */,
 				04FF120A20C94D9E00D84BB9 /* TableViewCell.swift in Sources */,
+				047D328920D4FEB2000D25EC /* t2.swift in Sources */,
 				04FF11DD20C9470900D84BB9 /* ViewController.swift in Sources */,
 				04FF11DB20C9470900D84BB9 /* AppDelegate.swift in Sources */,
 			);
